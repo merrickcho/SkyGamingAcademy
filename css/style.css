@@ -1,0 +1,60 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+    background-image: url(Assets/_Media Kit/Brand/Table.png); 
+
+}
+/*
+ .navbar {
+    background-color: #A380DE;
+    height: 3rem;
+    text-align: center;
+}
+
+.container {
+    background-color: #d9d9d9;
+    height: 20%;
+}
+
+footer {
+    background-color: #A380DE;
+    height: 3rem;
+}
+
+#social > #row > #col {
+    border: #A380DE 1px thin;
+} */
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* header {
+
+}
+
+footer {
+
+} */
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
