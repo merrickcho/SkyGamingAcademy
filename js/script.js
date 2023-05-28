@@ -8,13 +8,18 @@ fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=U
             for(video of videos){
                 videoContainer.innerHTML += 
                 `
-                <a href="https://youtube.com/watch?v=${video.id.videoId}" target="_blank"><img src="${video.snippet.thumbnails.high.url}">
-                <div class="text-light"><h6>${video.snippet.title}</h6></div>
-
+                <div class="col"
+                    <div class="card bg-dark" style="width: 25rem">
+                        <a href="https://youtube.com/watch?v=${video.id.videoId}" target="_blank">
+                            <img src="${video.snippet.thumbnails.high.url}" class="card-img-top" alt="${video.snippet.title}>
+                        </a>
+                      <div class="card-body">
+                        <p class="card-text text-light mx-3">${video.snippet.title}</p>
+                      </div>
+                    </div>
+                </div>
                 `
                 
             }
         })
     })
-
-
