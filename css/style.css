@@ -21,7 +21,8 @@
 /* BASE STYLES
 /*******************************************/
 body {
-    background-image: url(Assets/_Media Kit/Brand/Table.png); 
+    background-image: url(Assets/_MediaKit/Brand/Table.png); 
+    background-color: black;
 
 }
 /*
